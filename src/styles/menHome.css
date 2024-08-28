@@ -32,6 +32,7 @@ section > div > div:hover {
   min-width: 21%;
   font-family: "Noto Sans", sans-serif;
   position: relative;
+  
 }
 
 #displayContents,
@@ -43,6 +44,7 @@ section > div > div:hover {
   overflow-x: auto;
   overflow-y: hidden;
   /* padding-right: 20px; */
+  height: 570px;
 }
 
 /* #displayContents{
@@ -55,7 +57,8 @@ section > div > div:hover {
 
 #menOriginals,
 #bestOfAdidas {
-  height: 380px;
+  height: 390px;
+  margin-bottom: 50px;
 }
 #menOriginals > div:hover,
 #bestOfAdidas > div:hover {
@@ -156,7 +159,8 @@ section > div > div:hover {
 
 #productSection h6 {
   margin: 2px;
-  font-weight: 100;
+  font-weight: 500;
+  font-size: 12px;
 }
 
 #menDescription {
@@ -574,7 +578,7 @@ footer {
   height: 100vh;
 }
 
-.hamburger {
+.hamburger{
   cursor: pointer;
   display: none;
   height: 30px;
@@ -873,3 +877,6 @@ footer {
     margin-left: 2%;
   }
 }
+
+
+

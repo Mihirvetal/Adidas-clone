@@ -1,78 +1,78 @@
-var menOriginalsData = [{
-    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/e745acb29cd248e8994a6820a4ac6a29_9366/GAZELLE_BOLD_SHOES_Yellow_IF5937_01_standard.jpg",
+var womenOriginalsData = [{
+    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/29445f39431b4197b864d1600649f6ae_9366/Gazelle_Indoor_Shoes_Pink_IE7002_01_standard.jpg",
     price: "9999.00",
     name: "Superstar Shoes",
-    type: "Men originals",
+    type: "Women originals",
     new: "new"
 },
 {
-    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/e1ba91a12aef486680e5dbf046ac978f_9366/Samba_OG_Shoes_White_IF3814_01_standard.jpg",
+    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/b89a77a2bf9a4c7db3fa336fab012ddd_9366/Supernova_Stride_Running_Shoes_Black_IH2909_HM1.jpg",
     price: "999.00",
     name: "Shoes",
-    type: "Men originals",
-    new: "3-pack"
+    type: "Women originals",
+    new: "new"
 },
 {
-    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/f5fe74e35f2c4107bdffad200179a37d_9366/Gazelle_Shoes_Pink_H01512_01_standard.jpg",
+    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/7d4da4f2baf2481eb858ad1600f6f407_9366/Ultraboost_5_Shoes_Grey_IH7709_HM1.jpg",
     price: "8999.00",
     name: "Shoes",
-    type: "Men Lifestyle",
+    type: "Women originals",
     new: "new"
 },
 {
-    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/0faba7ce543d4efbad3695157ef23b55_9366/GAZELLE_BOLD_SHOES_Blue_IE0430_01_standard.jpg",
+    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/4476b3bf351a41dea7672b1c3d1e37cb_9366/Supernova_Rise_Running_Shoes_Green_IE1064_HM1.jpg",
     price: "4999.00",
     name: "Shoes",
-    type: "Men Lifestyle",
+    type: "Women originals",
     new: "new"
 },
 {
-    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/d62884026e05447ea7e08a9b9fb602b7_9366/Gazelle_Indoor_Shoes_Red_IE2946_01_standard.jpg",
+    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/1151f8ccf1c4465e95cca7ea464fe6b4_9366/Supernova_Stride_Running_Shoes_White_IE8181_HM1.jpg",
     price: "5999.00",
     name: "Shoes",
-    type: "Men Lifestyle",
+    type: "Women originals",
     new: "new"
 },
 {
-    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/340aeb9ac43847fea000a8da0182b561_9366/Gazelle_Shoes_Burgundy_B41645_01_standard.jpg",
+    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/e2d18c60898d404bb0d3baf4db16d069_9366/Samba_Golf_Shoes_White_IH5167_01_standard.jpg",
     price: "2299.00",
     name: "Shoes",
-    type: "Men originals",
+    type: "Women originals",
     new: "new"
 },
 {
-    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/3bbecbdf584e40398446a8bf0117cf62_9366/Samba_OG_Shoes_White_B75806_01_standard.jpg",
+    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/205dd7ee954f488485e0b6fd875f3b54_9366/F50_League_Firm-Multi-Ground_Boots_Blue_IE0603_22_model.jpg",
     price: "3599.00",
     name: "Shoes",
-    type: "Men originals",
+    type: "Women originals",
     new: "new"
 },
 {
-    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/61f87dec481e4512823ea7fb0080ba1a_9366/Gazelle_Shoes_Black_BB5476_01_standard.jpg",
+    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/491ce1454b7a4d1984dd4c960ea1d14e_9366/Supernova_Rise_Running_Shoes_Black_ID3589_HM1.jpg",
     price: "2900.00",
     name: "Shoes",
-    type: "Men originals",
+    type: "Women originals",
     new: "new"
 },
 {
-    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/4c70105150234ac4b948a8bf01187e0c_9366/Samba_OG_Shoes_Black_B75807_01_standard.jpg",
+    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/c2cb718724e945e6bbc211e01f2e1913_9366/adidas_Switch_Fwd_2_Running_Shoes_Grey_IE5885_01_00_standard.jpg",
     price: "2900.00",
     name: "Shoes",
-    type: "Men originals",
+    type: "Women originals",
     new: "new"
 },
 {
-    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/ca2e5777522b4c708f0602d38c6b3cf6_9366/Samba_OG_Shoes_White_IF3813_01_standard.jpg",
+    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/959252325c3d435285dc96d8c07c9eb3_9366/adidas_Switch_Fwd_2_Running_Shoes_White_ID0533_01_standard.jpg",
     price: "2900.00",
     name: "Shoes",
-    type: "Men originals",
+    type: "Women originals",
     new: "new"
 },
 {
     imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/97f86eede1374615a058a81700a27444_9366/Gazelle_Shoes_Black_CQ2809_01_standard.jpg",
     price: "2900.00",
     name: "Shoes",
-    type: "Men originals",
+    type: "Women originals",
     new: "new"
 },
 
@@ -80,37 +80,37 @@ var menOriginalsData = [{
     imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/698e41ae0196408eb16aa7fb008046ad_9366/Gazelle_Shoes_Blue_BB5478_01_standard.jpg",
     price: "3900.00",
     name: "Shoes",
-    type: "Men originals",
+    type: "Women originals",
     new: "new"
 }
 ];
 
 var bestOfAdidas = [{
-    imgURL: "https://images-cdn.ubuy.co.in/6351b207526e007468441b12-adidas-face-covers-3-pack-wild.jpg",
+    imgURL: "https://i.pinimg.com/736x/ba/15/f4/ba15f4b524c2743e962457b4df7b81ea.jpg",
     price: "999.00",
     name: "Face Cover- Not For Medical Use",
-    type: "Original"
+    type: " Women Original"
 
 },
 {
-    imgURL: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4c72be5444d74daf94efad1700b8d6e9_9366/AEROREADY_Sereno_Cut_3-Stripes_Slim_Track_Jacket_Blue_H28903_01_laydown.jpg",
+    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/84ff589e5bcf476eb8feaf0000895fff_9366/Adicolor_Classics_Firebird_Track_Jacket_Burgundy_IB7406.jpg",
     price: "8999.00",
     name: "Adicolor Velour Track Jacket",
-    type: "Original"
+    type: "Women Original"
 
 },
 {
-    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/5457abfb94a8440fa573ad7a008a31f9_9366/Adilette_Lite_Slides_Black_GZ6196.jpg",
+    imgURL: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d011cd2402284b34a35dad790091c267_9366/Adilette_Lite_Slides_Pink_GZ6198_01_standard.jpg",
     price: "2999.00",
     name: "Adilette Lite Slides",
-    type: "Original"
+    type: "Women Original"
 
 },
 {
-    imgURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbwNCuyO3LEDJdXeIII5F0SGpK8CNXi6ZhOw&s",
+    imgURL: "https://www.tradeinn.com/f/13785/137858412_5/adidas-originals-face-cover-3-units-face-mask.webp",
     price: "999.00",
     name: "Face Cover- Not For Medical Use",
-    type: "Original"
+    type: "Women Original"
 
 }
 ];
@@ -119,7 +119,7 @@ var len = wishlist.length;
 var cartlist = JSON.parse(localStorage.getItem("cartlistdb")) || []
 var le = cartlist.length;
 
-displayData(menOriginalsData);
+displayData(womenOriginalsData);
 document.querySelector("#wishlistLen").textContent = len;
 document.querySelector("#cartLen").textContent = le;
 

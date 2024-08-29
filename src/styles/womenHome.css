@@ -370,7 +370,7 @@ section > div > div:hover {
 
 .poster_container {
   width: 90%;
-  margin-left: 25%;
+  margin-left: 10%;
   margin-bottom: 20%;
 }
 
@@ -411,7 +411,7 @@ section > div > div:hover {
     height: 60vh;
     background-size: cover;
     width: 100%;
-    background-image: url("https://images.pexels.com/photos/8047038/pexels-photo-8047038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_960,w_960/enIN/Images/Deepika_x_Marimekko_1200x1000_29th_Oct_T_tcm209-799925.jpg");
   }
   .poster_container {
     margin-bottom: 20px;
@@ -424,7 +424,7 @@ section > div > div:hover {
     justify-content: center;
     width: 100%;
     min-width: 100%;
-    background-image: url("https://images.pexels.com/photos/4619884/pexels-photo-4619884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/enIN/Images/Deepika_x_Marimekko_800x1000_29th_Oct_M_tcm209-799924.jpg");
   }
   .poster_container {
     margin-bottom: 20px;

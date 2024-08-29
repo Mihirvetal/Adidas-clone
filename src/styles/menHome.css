@@ -771,7 +771,7 @@ footer {
   background-color: #363738;
   height: 120px;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .indialogo {
@@ -786,21 +786,24 @@ footer {
 }
 
 .copyright > a {
-  margin-left: 20%;
+  margin-left: 42%;
   color: #ffffff;
   text-decoration: none;
 }
 
 .tnc {
   display: flex;
-  margin-top: -6%;
-  margin-left: 65%;
+  margin-top: -5%;
+  margin-left: 41%;
   margin-right: 15%;
 }
 
 .tnc > p > a {
   color: #ffffff;
   text-decoration: none;
+  border-right: 2px solid white;
+  margin-right: 10px;
+  padding-right: 10px;
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1000px) {
@@ -825,13 +828,14 @@ footer {
   .tnc {
     display: flex;
     margin-top: -50px;
-    margin-left: 60%;
+    margin-left: 41%;
     margin-right: 2%;
   }
 
   .tnc > p > a {
     word-spacing: 5%;
   }
+ 
 }
 
 @media only screen and (min-width: 0px) and (max-width: 900px) {
@@ -868,13 +872,17 @@ footer {
     line-height: 20px;
   }
 
+  .tnc > p > a {
+    border: none;
+  }
+
   .indialogo {
     margin-left: 2%;
     margin-top: 20px;
   }
 
   .copyright > a {
-    margin-left: 2%;
+    display: none;
   }
 }
 

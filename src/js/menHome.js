@@ -6,14 +6,14 @@ var menOriginalsData = [{
     new: "new"
 },
 {
-    imgURL: "https://static.qns.digital/img/p/2/5/7/0/6/8/3/2570683-full_product.jpg",
+    imgURL: "https://images-cdn.ubuy.co.in/6351b207526e007468441b12-adidas-face-covers-3-pack-wild.jpg",
     price: "999.00",
     name: "Face Cover- Not For Medical Use",
     type: "Men originals",
     new: "3-pack"
 },
 {
-    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/84ff589e5bcf476eb8feaf0000895fff_9366/Adicolor_Classics_Firebird_Track_Jacket_Burgundy_IB7406.jpg",
+    imgURL: "https://i.ebayimg.com/images/g/0dUAAOSw3WBjPdna/s-l1200.png",
     price: "8999.00",
     name: "Adicolor Velour Track Jacket",
     type: "Men Lifestyle",
@@ -86,28 +86,28 @@ var menOriginalsData = [{
 ];
 
 var bestOfAdidas = [{
-    imgURL: "https://i.pinimg.com/736x/ba/15/f4/ba15f4b524c2743e962457b4df7b81ea.jpg",
+    imgURL: "https://images-cdn.ubuy.co.in/6351b207526e007468441b12-adidas-face-covers-3-pack-wild.jpg",
     price: "999.00",
     name: "Face Cover- Not For Medical Use",
     type: "Original"
 
 },
 {
-    imgURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGsuOne24ZSpD7Du9AbWpvlzBPuvTtJiamvQ&s",
+    imgURL: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4c72be5444d74daf94efad1700b8d6e9_9366/AEROREADY_Sereno_Cut_3-Stripes_Slim_Track_Jacket_Blue_H28903_01_laydown.jpg",
     price: "8999.00",
     name: "Adicolor Velour Track Jacket",
     type: "Original"
 
 },
 {
-    imgURL: "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/9ff14b93e7af4aebbc1baaf0010f4fed_9366/FU7592_00_plp_standard.jpg",
+    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/5457abfb94a8440fa573ad7a008a31f9_9366/Adilette_Lite_Slides_Black_GZ6196.jpg",
     price: "2999.00",
     name: "Adilette Lite Slides",
     type: "Original"
 
 },
 {
-    imgURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4LTThvclK6Jl1LCMY9eVYsuKnlM9gVGY9Qw&s",
+    imgURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbwNCuyO3LEDJdXeIII5F0SGpK8CNXi6ZhOw&s",
     price: "999.00",
     name: "Face Cover- Not For Medical Use",
     type: "Original"

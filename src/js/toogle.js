@@ -11,28 +11,28 @@ function myFunction() {
 
 
 var bestOfAdidas = [{
-    imgURL: "https://i.pinimg.com/736x/ba/15/f4/ba15f4b524c2743e962457b4df7b81ea.jpg",
+    imgURL: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8a56ed09b3114fbc9d53af81015162bd_9366/Face_Cover_Black_HT5742_21_model.jpg",
     price: "999.00",
     name: "Face Cover- Not For Medical Use",
     type: "Original"
 
 },
 {
-    imgURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGsuOne24ZSpD7Du9AbWpvlzBPuvTtJiamvQ&s",
+    imgURL: "https://viaductclothing.co.uk/cdn/shop/files/adidas_Originals_Adicolor_Velour_Firebird_Track_Jacket_-_Black_-_ViaductClothing_-_-_-235269_1600x.jpg?v=1717037301",
     price: "8999.00",
     name: "Adicolor Velour Track Jacket",
     type: "Original"
 
 },
 {
-    imgURL: "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/9ff14b93e7af4aebbc1baaf0010f4fed_9366/FU7592_00_plp_standard.jpg",
+    imgURL: "https://assets.adidas.com/images/w_600,f_auto,q_auto/ba2804e6fd694ee298c5a36800b29a52_9366/ADILETTE_SLIDES_Blue_288022_02_standard_hover.jpg",
     price: "2999.00",
     name: "Adilette Lite Slides",
     type: "Original"
 
 },
 {
-    imgURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4LTThvclK6Jl1LCMY9eVYsuKnlM9gVGY9Qw&s",
+    imgURL: "https://m.media-amazon.com/images/I/41SWL6vIXUL._AC_UY350_.jpg",
     price: "999.00",
     name: "Face Cover- Not For Medical Use",
     type: "Original"

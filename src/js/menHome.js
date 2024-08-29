@@ -174,9 +174,9 @@ function displayData(arr) {
         })
 
         if (element.price == "Sold out") {
-            priceDiv.innerHTML = '<p>' + element.price + '</p>';
+            priceDiv.innerHTML = `<p>${element.price}</p>`;
         } else if (element.price != "") {
-            priceDiv.innerHTML = '<p>' + "Rs. " + element.price + '</p>';
+            priceDiv.innerHTML = `<p>Rs.${element.price}</p>`;
         }
 
         priceDiv.setAttribute("class", "price1");
@@ -235,7 +235,7 @@ function displaybestOfAdidasData(arr) {
         })
 
         priceDiv.setAttribute("class", "price");
-        priceDiv.innerHTML = '<p>' + "Rs. " + element.price + '</p>';
+        priceDiv.innerHTML = `<p>Rs.${element.price}</p>`;
         name.textContent = element.name;
         type.textContent = element.type;
 

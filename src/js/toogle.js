@@ -92,7 +92,7 @@ function displaybestOfAdidasData(arr) {
 
         cartSymDiv.setAttribute("class", "cartSym");
         priceDiv.setAttribute("class", "price");
-        priceDiv.innerHTML = '<p>' + "Rs. " + element.price + '</p>';
+        priceDiv.innerHTML = `<p>Rs.${element.price}</p>`;
         name.textContent = element.name;
         type.textContent = element.type;
 

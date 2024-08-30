@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <script src="https://kit.fontawesome.com/91a6d2fe0f.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: "Times New Roman";
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            height: auto;
+            max-width: 400px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: black;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #414141;
+        }
+
+        #message {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .error {
+            color: red;
+            font-size: 0.9em;
+        }
+
+        .password-hint {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+            display: none;
+        }
+
+        .password-strength div {
+            height: 5px;
+            border-radius: 4px;
+        }
+
+        .weak {
+            width: 33%;
+            background-color: red;
+        }
+
+        .medium {
+            width: 66%;
+            background-color: orange;
+        }
+
+        .strong {
+            width: 100%;
+            background-color: green;
+        }
+
+        /* Media Queries for Responsive Design */
+        @media (min-width: 768px) {
+            .container {
+                width: 70%;
+                max-width: 500px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .container {
+                width: 50%;
+                max-width: 600px;
+            }
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 0;
+        }
+
+        .social-icons div {
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Log in or sign up (it’s free)</h2>
+        <form id="signupForm">
+            <div>
+                <img src="https://account-frontends.adidas.com/account-portal/v1/assets/adiclub-blue-desktop.e34c412f9253e8d5.svg" alt="adiclubImage" style="width: 100%;">
+            </div>
+            <h1>YOUR ADICLUB BENEFITS AWAIT</h1>
+
+            <div class="social-icons">
+                <div><i class="fa-brands fa-apple"></i></div>
+                <div><i class="fa-brands fa-facebook"></i></div>
+                <div><i class="fa-brands fa-google"></i></div>
+            </div>
+
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <div class="password-hint" id="passwordHint">
+                    <!-- Password strength indicators will be shown here -->
+                </div>
+            </div>
+
+            <label>
+                <input type="checkbox" name="stayUpdated" value="stayUpdated">
+                I would like to stay up to date with adidas. I agree to receive personalized marketing messages from adidas India Marketing Pvt. Ltd.
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="termsAndConditions" value="termsAndConditions">
+                I have read and accepted the Terms & Conditions, the adiClub Terms & Conditions, and the adidas Privacy Policy.
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="keepLoggedIn" value="keepLoggedIn">
+                Keep me logged in. Applies to all options.
+            </label>
+            <button type="submit">Sign Up</button>
+        </form>
+        <div id="message"></div>
+    </div>
+
+    <script>
+        const form = document.getElementById('signupForm');
+        const password = document.getElementById('password');
+        const passwordHint = document.getElementById('passwordHint');
+        const message = document.getElementById('message');
+
+        // Function to check password strength
+        password.addEventListener('input', () => {
+            const value = password.value;
+            let strength = 'weak';
+            if (value.length >= 8 && /[a-z]/.test(value) && /[A-Z]/.test(value) && /[0-9]/.test(value)) {
+                strength = 'strong';
+            } else if (value.length >= 6) {
+                strength = 'medium';
+            }
+            
+            passwordHint.style.display = 'block';
+            passwordHint.textContent = 'Password strength: ' + strength;
+        });
+
+        // Function to handle form submission
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            message.textContent = 'Form submitted successfully!';
+        });
+    </script>
+</body>
+</html>

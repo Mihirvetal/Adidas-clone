@@ -3,7 +3,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: "Advent Pro", sans-serif;
+  /* font-family: "Advent Pro", sans-serif; */
   
 }
 body{
@@ -397,7 +397,22 @@ section > div > div:hover {
 }
 
 /* poster media queries end  */
-
+.popular-section{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+.popular-section-card{
+  font-size: 34px;
+  border-bottom: 1px solid black;
+  width: 260px;
+  margin-top: 80px;
+}
+.popular-section-card:hover{
+  font-weight: 400;
+  border-bottom: 7px solid black;
+}
 /* yellow container css start */
 
 .yellow_container {
@@ -406,6 +421,10 @@ section > div > div:hover {
   font-family: AdineuePRO, Helvetica, Arial, sans-serif;
   margin-bottom: 20px;
   
+}
+marquee{
+  padding: 20px;
+  font-size: 34px;
 }
 
 .yellow_container_heading {
@@ -741,13 +760,45 @@ footer {
   margin-right: 10px;
 }
 
-.footsignup {
-  display: flex;
-}
+
 
 /* .center {
     height: 1400px;
 } */
+
+.blackfoot{
+  width: 100vw;
+  background-color:#282c31;
+  height: 150px;
+  
+
+}
+.privacy-foot{
+  width: 400px;
+  height: 100%;
+  border: 1px solid #282c31;
+  margin: auto;
+  color: #aca29a;
+  
+  
+}
+.privacy-upp>hr{
+  color: white;
+  height: 15px;
+  width: 2px;
+}
+.privacy-upp{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+  
+}
+
+.privacy-down{
+  margin-top: 60px;
+  text-align: center;
+}
 
 .icons {
   display: flex;
@@ -822,11 +873,12 @@ footer {
   background-color: #f0d7bb;
 }
 
-.lastfoot {
+.lastfoot1 {
   background-color: #363738;
   height: 120px;
   color: #ffffff;
   font-size: 12px;
+  width: 100vw
 }
 
 .indialogo {

@@ -392,7 +392,7 @@ section > div > div:hover {
     background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/FW_24_ultima_hp_banner_hero_d_d285fb5471.png");
   }
   .poster_container {
-    margin-bottom: 20px;
+    margin-bottom: -80px;
   }
 }
 
@@ -648,12 +648,12 @@ footer {
 }
 .hamnames {
   list-style: none;
-  background-color: #fff;
-  color: black;
-  height: 100vh;
-  width: 100vw;
-  display: none;
-  margin-left: -70px;
+    background-color: #fff;
+    color: black;
+    height: 52vh;
+    width: 100vw;
+    display: none;
+    margin-left: -20px;
 }
 
 .category {

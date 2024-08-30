@@ -1061,91 +1061,91 @@ var allProductData =
         "imgURL": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/635ccd0d18344423b749ab94af636745_9366/YEEZY_500_KIDS_Grey_ID2442_01_standard.jpg",
         "price": "10999.00",
         "name": "YEEZY 500 KIDS",
-        "type": "Shoe",
+        "type": "Shoes",
         "gender": "Kids"
     },
     {
         "imgURL": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/92584c15c3b44536ae1a78f37093e222_9366/RapidaSport_Bounce_BOA_Closure_Shoes_Pink_IF8541_04_standard.jpg",
         "price": "3499.00",
         "name": "RapidaSport Bounce BOA Closure Shoes",
-        "type": "Shoe",
+        "type": "Shoes",
         "gender": "Kids"
     },
     {
         "imgURL": "https://assets.adidas.com/images/w_600,f_auto,q_auto/40e8dfe4072c4290bd7ff3df9f8ee0de_9366/Marvel_Duramo_SL_Shoes_Kids_Black_ID8048_01_standard.jpg",
         "price": "3499.00",
         "name": "Marvel Duramo SL Shoes",
-        "type": "Shoe",
+        "type": "Shoes",
         "gender": "Kids"
     },
     {
         "imgURL": "https://assets.adidas.com/images/w_600,f_auto,q_auto/859ea75d03e84beeb63d380ca2c007b3_9366/Fortarun_3_Shoes_Kids_White_IH2857_01_standard.jpg",
         "price": "3999.00",
         "name": "Fortarun 3 Shoes",
-        "type": "Shoe",
+        "type": "Shoes",
         "gender": "Kids"
     },
     {
         "imgURL": "https://assets.adidas.com/images/w_600,f_auto,q_auto/ae87b36710ad474aaeacdd1f73157f55_9366/Star_Wars_Runner_Shoes_Kids_Black_IE8045_01_standard.jpg",
         "price": "3599.00",
         "name": "Star Wars Runner Shoes",
-        "type": "Shoe",
+        "type": "Shoes",
         "gender": "Kids"
     },
     {
         "imgURL": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/01f147f51ae247aca4da4c245ef96e4e_9366/Breaknet_2.0_Shoes_Kids_White_IE8700_04_standard.jpg",
         "price": "2999.00",
         "name": "Breaknet 2.0 Shoes",
-        "type": "Shoe",
+        "type": "Shoes",
         "gender": "Kids"
     },
     {
         "imgURL": "https://assets.adidas.com/images/w_600,f_auto,q_auto/7105cafb033141ff96434cc250674626_9366/Tensaur_Run_2.0_Shoes_Kids_Pink_IE5990_01_standard.jpg",
         "price": "3499.00",
         "name": "Tensaur Run 2.0 Shoes",
-        "type": "Shoe",
+        "type": "Shoes",
         "gender": "Kids"
     },
     {
         "imgURL": "https://assets.adidas.com/images/w_600,f_auto,q_auto/28f0f3ff44524fa186e781321059c1d1_9366/Ozelle_BOA_Shoes_Kids_Beige_IE6407_01_standard.jpg",
         "price": "3999.00",
         "name": "Ozelle BOA Shoes",
-        "type": "Shoe",
+        "type": "Shoes",
         "gender": "Kids"
     },
     {
         "imgURL": "https://assets.adidas.com/images/w_600,f_auto,q_auto/2e55c90984b04e17aef3e979736c6de1_9366/Tensaur_Run_2.0_Shoes_Kids_Blue_IE5989_01_standard.jpg",
         "price": "3499.00",
         "name": "Tensaur Run 2.0 Shoes",
-        "type": "Shoe",
+        "type": "Shoes",
         "gender": "Kids"
     },
     {
         "imgURL": "https://assets.adidas.com/images/w_600,f_auto,q_auto/971dc8b8a4b8446ca3d8afbe009ce798_9366/PERCEPTO_2.0_SHOES_Blue_GC0846_01_standard.jpg",
         "price": "3599.00",
         "name": "PERCEPTO 2.0 SHOES",
-        "type": "Shoe",
+        "type": "Shoes",
         "gender": "Kids"
     },
     {
         "imgURL": "https://assets.adidas.com/images/w_600,f_auto,q_auto/75b6aac658b34111855b912ac38fcbe3_9366/Grand_Court_x_Disney_Shoes_Kids_White_IF0926_01_standard.jpg",
         "price": "2999.00",
         "name": "Grand Court x Disney Shoes",
-        "type": "Shoe",
+        "type": "Shoes",
         "gender": "Kids"
     },
     {
         "imgURL": "https://assets.adidas.com/images/w_600,f_auto,q_auto/dc1f8510f89448f19f85a6d73cb5c3cf_9366/Marvels_Spider-Man_Grand_Court_Shoes_Kids_White_ID8025_01_standard.jpg",
         "price": "3199.00",
         "name": "Marvel's Spider-Man Grand Court Shoes",
-        "type": "Shoe",
+        "type": "Shoes",
         "gender": "Kids"
     },
     {
         "imgURL": "https://assets.adidas.com/images/w_600,f_auto,q_auto/208620916bb54d3db93043dbc4a46b16_9366/Star_Wars_Runner_Shoes_Kids_Black_ID0378_01_standard.jpg",
         "price": "3599.00",
         "name": "Star Wars Runner Shoes",
-        "type": "Shoe",
+        "type": "Shoes",
         "gender": "Kids"
     },
     {

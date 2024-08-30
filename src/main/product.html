@@ -5,12 +5,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Addidas | Wishlist</title>
-    <!-- <link rel="stylesheet" href="headerFooter.css" /> -->
+    <title>Women Shoes, Clothing and Accessories</title>
     <link rel="icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/250px-Adidas_Logo.svg.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="../styles/wishlist.css" />
+    <link rel="stylesheet" href="../styles/product.css" />
     <script src="https://kit.fontawesome.com/683b4b40e3.js" crossorigin="anonymous"></script>
 </head>
 
@@ -28,7 +27,7 @@
                     <p><a href="">help</a></p>
                     <p><a href="">returns</a></p>
                     <p><a href="">order tracker</a></p>
-                    <p><a href="signup.html">sign up</a></p>
+                    <p><a href="">sign up</a></p>
                     <p><a href="">creators club</a></p>
                     <p><a href="Rakhi_Login_Page.html">log in</a></p>
                 </div>
@@ -102,43 +101,90 @@
         </div>
     </nav>
 
-    <!-- wishlist section start here  -->
+    <!-- all product starts here  -->
+    <section class="center">
+        <div class="container">
+            <div class="backwomen">
+                <div><a href="#" onclick="goBack()">Back</a></div>
+                <div><a href="../index.html">Home</a></div>
+                <div><a href="#">All products</a></div>
+            </div>
+            <h1 class="woriginals">ALL PRODUCTS</h1>
+            <p>Our adidas Originals range contains all the classic adidas clothing that you've come to love over
+                the years. Take a walk down memory lane with our reinvigorated versions of retro icons.</p>
+        </div>
+        
+        <div class="hrline"></div>
+        <div class="container">
+            <div class="selectedcat">
+                <select id="sortByGender">
+                    <option value="">GENDER</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="kids">Kids</option>
+                </select>
+                <select id="filterByType">
+                    <option value="">PRODUCT TYPE</option>
+                    <option value="Topwear">Topwear</option>
+                    <option value="Bottomwear">Bottomwear</option>
+                    <option value="Accessory">Accessory</option>
+                    <option value="Shoe">Shoe</option>
+                </select>
+                <select id="sortByPrice">
+                    <option value="">SORT By</option>
+                    <option value="lowToHigh">Price [low - high]</option>
+                    <option value="highToLow">Price [high - low]</option>
+                </select>
+    
+            </div>
+        </div>
+        
+        
+        <div class="hrline"></div>
+        <div class="container-1300"><div id="allProductDiv"></div></div>
+        
+        <div class="container-1300" style="text-align: center; margin: 50px 10px;">
+            <div id="paginationControls">
+                <button id="prevPage" disabled>Previous</button>
+                <span id="pageNumber">Page 1</span>
+                <button id="nextPage">Next</button>
+            </div>
+            
+        </div>
+        
+    </section>
+
     <section>
         <div id="login_cart_bar">
             <div>
                 <h5>LOG IN</h5>
             </div>
             <div>
-                <h5>
-                    YOUR BAG(<span id="cart-item"></span>)
-                </h5>
+                <h5>YOUR BAG(<span id="cart-item"></span>)</h5>
             </div>
         </div>
     </section>
+
+    <!-- yellow container starts here  -->
     <section>
-        <div class="container-1300">
-            <h1 class="mywish">MY WISHLIST</h1>
-            <p class=" mywish mywish_length"><span id="myWishLen"></span> items </p>
-            <div style="display: flex; justify-content: space-around;">
-                <!-- <div id="wishContain"> -->
+        <!-- <div class="container"> -->
+        <div class="yellow_container">
+            <div class="container">
+                <div class="yellow_container_heading">
+                    <h4>JOIN ADIDAS AND GET 15% OFF</h4>
 
-                <div id="womenOriginals">
+                    <div>
+                        <button class="yellow_container_btn">
+                            SIGN UP FOR FREE
+
+                            <i class="fas fa-arrow-right" style="margin-left: 8px; color: white"></i>
+                        </button>
+                        <div class="btn-back"></div>
+                    </div>
                 </div>
-
-                <div class="help">
-                    <h1>NEED HELP?</h1>
-
-                    <p><a href="">Products</a></p>
-                    <p><a href="">Ordering & Payments</a></p>
-                    <p><a href="">Delivery</a></p>
-                    <p><a href="">Promotions & Vouchers</a></p>
-                    <p><a href="">Return & Refund</a></p>
-                    <p><a href="">Account & Newsletter</a></p>
-                    <p><a href="">Company information</a></p>
-                </div>
-
             </div>
         </div>
+        <!-- </div> -->
 
     </section>
 
@@ -212,14 +258,14 @@
                     <h5>FOLLOW US</h5>
                     <ul>
                         <li><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/NE_Winstagram_logo_footer_tcm209_875968_e40414a503.png"
-                                alt="" style="width: 12%;"></li>
+                                alt=""></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-
+    <!-- unknown -->
     <section>
         <div id="small_screenProductList">
             <div>
@@ -266,10 +312,15 @@
     </footer>
 
     <!-- </div> -->
-
-
+    
 </body>
 
 </html>
 <script src="../js/toogle.js"></script>
-<script src="../js/wishlist.js"></script>
+<script src="../js/product.js"></script>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+

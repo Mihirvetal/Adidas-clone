@@ -73,6 +73,7 @@ section > div > div:hover {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  margin-right: 10px;
 }
 #menHeading > a {
   color: black;
@@ -476,7 +477,7 @@ marquee{
 }
 
 .btn-back {
-  width: 133px;
+  width: 170px;
   height: 43px;
   border: 1px solid black;
 }

@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adidas</title>
-    <link rel="stylesheet" href="../styles/signup.css" />
+    <link rel="stylesheet" href="../styles/login.css" />
     <link rel="icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/250px-Adidas_Logo.svg.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
@@ -29,9 +28,9 @@
                     <p><a href="">help</a></p>
                     <p><a href="">returns</a></p>
                     <p><a href="">order tracker</a></p>
-                    <p><a href="signup.html">sign up</a></p>
+                    <p><a href="../main/signup.html">sign up</a></p>
                     <p><a href="">creators club</a></p>
-                    <p><a href="./login.html">log in</a></p>
+                    <p><a href="../main/login.html">log in</a></p>
                 </div>
 
                 <div class="midnav">
@@ -50,7 +49,7 @@
                         <li>
                             <a href=""><strong>KIDS</strong></a>
                         </li>
-                        <li><a href="./login.html">LOG IN</a></li>
+                        <li><a href="./main/Rakhi_Login_Page.html">LOG IN</a></li>
                     </div>
 
                     <div class="logodiv">
@@ -59,13 +58,13 @@
                     </div>
                     <div class="cat displaynone">
                         <p>
-                            <a href="./menHome.html"><strong>MEN</strong></a>
+                            <a href="./main/menHome.html"><strong>MEN</strong></a>
                         </p>
                         <p>
-                            <a href="./womenHome.html"><strong>WOMEN</strong></a>
+                            <a href="./main/womenHome.html"><strong>WOMEN</strong></a>
                         </p>
                         <p>
-                            <a href="./kids.html"><strong>KIDS</strong></a>
+                            <a href="womenWithHeader.html"><strong>KIDS</strong></a>
                         </p>
                         <p>
                             <a href="womenWithHeader.html"><strong>SPORTS</strong></a>
@@ -139,8 +138,8 @@
     <div class="container">
         <div class="login-section">
             <div class="left">
-                <img src="https://www.adidas.co.in/glass/react/050cc48/assets/img/account-portal-page-inline.png"
-                    alt="image">
+                <img src="https://image.slidesharecdn.com/beyondconversion-creatingdelightfulexperiencesthatalignyourbrandwithcustomergoals-221016211349-661ee036/75/Beyond-Conversion-Creating-Delightful-Experiences-that-Align-your-Brand-with-Customer-Goals-2-2048.jpg"
+                    alt="image" class="loginimg">
                 <h1>JOIN THE CLUB.GET REWARDED.</h1>
                 <!-- <h1>GET REWARDED.</h1> -->
                 <p><span>&#x2713;</span> Free delivery</p>
@@ -156,44 +155,43 @@
                     alt="addidas_image">
                 <h1>YOUR ADICLUB BENEFITS AWAIT</h1>
                 <p>Get free shipping, discount vouchers and members only products when you’re in adiClub.</p>
-                <h3>Sign Up (it’s free)</h3>
+                <h3>Log in (it’s free)</h3>
 
 
 
 
-                <form id="signupForm">
+                <form id="loginForm">
                     <div class="form-group">
                         <label for="email">Email Address <span style="color: red;">*</span></label>
                         <input type="email" id="email" required>
 
-
+                        
                         <label for="password">Password <span style="color: red;">*</span></label>
                         <input type="password" id="password" required min="8" max="16">
                     </div>
                     <div class="form-group">
-                        <input type="checkbox" id="newsletter">
+                        <input type="checkbox" id="newsletter" >
                         <label for="newsletter">I would like to stay up to date with adidas. I agree to receive
                             personalized
                             marketing messages from adidas India Marketing Pvt. Ltd.</label>
                         <br><label><a href="login.html">Read More</a></label>
                     </div>
                     <div class="form-group">
-                        <input type="checkbox" id="terms">
-                        <label for="terms">I have read and accepted the <a href="#">terms <span>&</span> conditions</a>
-                            and the <a href="#">privacy policy</a>.</label>
+                        <input type="checkbox" id="terms" >
+                        <label for="terms">I have read and accepted the <a href="#">terms <span>&</span> conditions</a> and the <a
+                                href="#">privacy policy</a>.</label>
                     </div>
 
 
 
                     <div style="margin-top: 20px; padding: 10px;width: 500px; ">
                         <input type="submit" value="Continue" class="yellow_container_btn2"
-                            style=" background-color: black; color: white; margin-left: 8px; ">
+                            style=" background-color: black; color: white; margin-left: 8px; width: 98px; ">
+                            
 
-
-
-
-                        <div class="btn-back"
-                            style="margin-left: 15px; border: 1px solid black; width: 102px; height: 45px; margin-top: 5px;">
+                            
+                   
+                        <div class="btn-back" style="margin-left: 15px; border: 1px solid black; width: 102px; height: 45px; margin-top: 5px;">
                         </div>
                     </div>
                 </form>
@@ -362,34 +360,42 @@
 
 <!-- js  -->
 <script>
-    function signupfn() {
-        event.preventDefault();
-        console.log("username");
-        const username = document.getElementById("email").value.trim();
-        const password = document.getElementById("password").value.trim();
+function loginfn(){
+    event.preventDefault();
+    console.log("username");
+    const username = document.getElementById("email").value.trim();
+    const password = document.getElementById("password").value.trim();
+    
+    const api = "AIzaSyDHO9-l6UOCnT2HN7EdAJczOb3Se8LDTQY";
+    
+    const raw = JSON.stringify({
+        "email": username,
+        "password": password
+    });
+    
+    const requestOptions = {
+        method: "POST",
+        body: raw,
+        redirect: "follow",
+    };
+    
+    fetch(
+        `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${api}`,
+    requestOptions
+)
+.then((response) => response.json())
+.then((result) => {
+    result.idToken
+    ? (alert("Welcome Back, We Missed You 🥹"),
+    localStorage.setItem("idToken", result.idToken),
+    (window.location.href = "../index.html"))
+    : alert("Invalid credentials. Please try again.");
+})
+.catch((error) => console.log("error", error));
 
-        const api = "AIzaSyDHO9-l6UOCnT2HN7EdAJczOb3Se8LDTQY";
 
-        const raw = JSON.stringify({
-            "email": username,
-            "password": password
-        });
+}
 
-        const requestOptions = {
-            method: "POST",
-            body: raw,
-            redirect: "follow"
-        };
-
-        fetch(`https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${api}`, requestOptions)
-            .then((response) => response.json())
-            .then((result) => {
-                alert("Welcome To Adiclub 🥳")
-                    window.location.href = "login.html"
-            })
-            .catch((error) => console.error(error));
-    }
-
-    document.getElementById("signupForm").addEventListener("submit", signupfn);
+document.getElementById("loginForm").addEventListener("submit", loginfn);
 
 </script>

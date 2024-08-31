@@ -608,8 +608,8 @@ footer {
     background: white;
     padding: 0px 5px;
     position: absolute;
-    bottom: 40px;
-    left: -4px;
+    bottom: 47px;
+    left: 107px;
 }
 
 
@@ -702,7 +702,7 @@ h6 {
 }
 .cartSym{
     position: absolute;
-    bottom: 57px;
+    bottom: 100px;
     right: 10px;
 }
 .mywish_length{

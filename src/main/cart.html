@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adidas | Wishlist</title>
- 
+    <title>Adidas | Your Bag</title>
+    
     <link rel="icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/250px-Adidas_Logo.svg.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="../styles/wishlist.css" />
+    <link rel="stylesheet" href="../styles/cart.css" />
     <script src="https://kit.fontawesome.com/683b4b40e3.js" crossorigin="anonymous"></script>
 </head>
 
@@ -102,122 +102,83 @@
         </div>
     </nav>
 
-    <!-- wishlist section start here  -->
-    <section>
-        <div id="login_cart_bar">
-            <div>
-                <h5>LOG IN</h5>
-            </div>
-            <div>
-                <h5>
-                    YOUR BAG(<span id="cart-item"></span>)
-                </h5>
-            </div>
-        </div>
-    </section>
-    <section>
+    <!-- cart start here  -->
+     <section>
         <div class="container-1300">
-            <h1 class="mywish">MY WISHLIST</h1>
-            <p class=" mywish mywish_length"><span id="myWishLen"></span> items </p>
-            <div style="display: flex; justify-content: space-around;">
-                <!-- <div id="wishContain"> -->
-
-                <div id="womenOriginals">
+            <div id="page">
+                <div id="check">
+                  <h1>YOUR BAG</h1>
+                  <p>TOTAL( <span class="card_len">4</span> item) <b>Rs.<span class="mytotal"></span></b> </p>
+                  <div id="mycarddata">
+            
+                  </div>
+                  <!-- <div id="prod">
+        
+                  </div> -->
+                  <div id="CHECKOUT_SECTION">
+                    <a href="shiping.html"> <button id="button">CHECKOUT
+                        <i class="fas fa-arrow-right" style="margin-left:8px; color: white;"></i>
+                      </button></a>
+                    <div id="last">
+                      <p>Free delivery</p>
+                      <p>30* day free returns</p>
+                      <p>Safe & Secure payment options</p>
+                    </div>
+                  </div>
+            
                 </div>
-
-                <div class="help">
-                    <h1>NEED HELP?</h1>
-
-                    <p><a href="">Products</a></p>
-                    <p><a href="">Ordering & Payments</a></p>
-                    <p><a href="">Delivery</a></p>
-                    <p><a href="">Promotions & Vouchers</a></p>
-                    <p><a href="">Return & Refund</a></p>
-                    <p><a href="">Account & Newsletter</a></p>
-                    <p><a href="">Company information</a></p>
+            
+                <div id="right">
+                  <a href="shiping.html"><button id="button1">CHECKOUT
+                      <i class="fas fa-arrow-right" style="margin-left:8px; color: white;"></i>
+                    </button></a>
+                  <div id="sum">
+                    <div id="order">
+                      <h3>ORDER SUMMARY</h3>
+                      <div id="order1">
+                        <div>
+                          <p>TOTAL PRICE</p>
+            
+                          <p>TOTAL ITEMS</p>
+                          <p>DELIVERY</p>
+                          <p>DISCOUNT</p>
+                          <p>TOTAL AMT PAYABLE</p>
+                        </div>
+                        <div>
+                          <p id="checktotal"></p>
+            
+                          <p id="check_len"></p>
+                          <p>FREE</p>
+                          <p id="check_discount"></p>
+                          <p id="check_total_amt"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="link">
+            
+                    <input id="myinput" type="text" placeholder="Enter Your Promo Code" />
+                    <button id="proapp">Apply Promo</button>
+                    <br>
+                    <h4>NEED HELP ?</h4>
+                    <p>Delivery</p>
+                    <p>Return & Refund</p>
+                    <p>Ordering & Payment</p>
+                    <p>Promotions & Vouchers</p>
+                  </div>
+            
+                  <div id="logo">
+                    <img
+                      src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/visa-master-rupay-cd_tcm209-732258.png"
+                      alt="">
+            
+                  </div>
                 </div>
-
-            </div>
+              </div>
         </div>
-
-    </section>
-
-
-    <!-- product-list start here  -->
-    <section>
-        <div class="container-1300">
-            <div id="product_list">
-                <div>
-                    <h5>PRODUCTS</h5>
-                    <ul style="list-style: none">
-                        <li>Footwear</li>
-                        <li>Clothing</li>
-                        <li>Accessories</li>
-                        <li>Outlet - Sales</li>
-                        <li>New Arrivals</li>
-                    </ul>
-                </div>
-                <div>
-                    <h5>SPORTS</h5>
-                    <ul>
-                        <li>Running</li>
-                        <li>Football</li>
-                        <li>Gym/Training</li>
-                        <li>Tennis</li>
-                        <li>Outdoor</li>
-                        <li>Basketball</li>
-                        <li>Swimming</li>
-                        <li>Skateboarding</li>
-                    </ul>
-                </div>
-                <div>
-                    <h5>COLLECTIONS</h5>
-                    <ul>
-                        <li>Ultraboost</li>
-                        <li>Superstar</li>
-                        <li>NMD</li>
-                        <li>Stan Smith</li>
-                        <li>Sustainability</li>
-                        <li>Predator</li>
-                        <li>Parley</li>
-                        <li>adicolor</li>
-                    </ul>
-                </div>
-                <div>
-                    <h5>SUPPORT</h5>
-                    <ul>
-                        <li>Help</li>
-                        <li>Customer Services</li>
-                        <li>Returns & Exchanges</li>
-                        <li>Shipping</li>
-                        <li>Order Tracker</li>
-                        <li>Store Locator</li>
-                        <li>Running Shoe Finder</li>
-                        <li>Bra Fit Guide</li>
-                        <li>Terms and conditions creators club</li>
-                    </ul>
-                </div>
-                <div>
-                    <h5>COMPANY INFO</h5>
-                    <ul>
-                        <li>About Us</li>
-                        <li>adidas stories</li>
-                        <li>adidas Apps</li>
-                        <li>Entity Details</li>
-                        <li>Press</li>
-                        <li>Careers</li>
-                    </ul>
-                </div>
-                <div>
-                    <h5>FOLLOW US</h5>
-                    <ul>
-                        <li><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/NE_Winstagram_logo_footer_tcm209_875968_e40414a503.png"
-                                alt="" style="width: 12%;"></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+     </section>
+    
+    
 
 
     <section>
@@ -272,4 +233,4 @@
 
 </html>
 <script src="../js/toogle.js"></script>
-<script src="../js/wishlist.js"></script>
+<script src="../js/cart.js"></script>

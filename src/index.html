@@ -15,6 +15,18 @@
 </head>
 
 <body>
+
+    <!-- loader  -->
+    <div id="loader">
+        <h1>ENTER THE </h1>
+
+        <h1>WORLD OF</h1>
+        <h1>SHOES</h1>
+
+    </div>
+    <div id="fixed-image">
+
+    </div>
     <!-- <div id="container"> -->
     <nav class="nav">
         <div class="uppernav">
@@ -83,18 +95,18 @@
                         </div>
 
                         <div class="disicon">
-                            <a href="./login.html"><i class="fas fa-user-circle"></i></a>
+                            <a href="./main/login.html"><i class="fas fa-user-circle"></i></a>
                         </div>
                         <p id="wishlistLen">45</p>
                         <div class="disicon heart">
-                            <a href=".wishlist.html"><i class="far fa-heart"></i></a>
+                            <a href="./main/wishlist.html"><i class="far fa-heart"></i></a>
                         </div>
                         <div class="searchicon">
                             <a href=""><i class="fas fa-search"></i></a>
                         </div>
                         <p id="cartLen">45</p>
                         <div class="disicon">
-                            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="./main/cart.html"><i class="fas fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -124,11 +136,12 @@
                     margin-top: 15px;
                     background-color: white;">only expectation.</span>
                     <div style="margin-top: 20px">
+                        <a href="./main/product.html">
                         <button class="yellow_container_btn" style="left: 10px; background-color: white; color: black">
                             EXPLORE MORE
 
                             <i class="fas fa-arrow-right" style="margin-left: 8px; color: black"></i>
-                        </button>
+                        </button></a>
                         <div class="btn-back" style="margin-left: 15px; border: 1px solid white; width: 150px;">
                         </div>
                     </div>
@@ -157,11 +170,13 @@
                     </p>
 
                     <div style="margin-top: 20px; ">
+                        <a href="./main/product.html">
                         <button class="yellow_container_btn" style="left: 10px; background-color: black; color: white ">
                             SHOP NOW
 
                             <i class="fas fa-arrow-right" style="margin-left: 8px; color: black"></i>
                         </button>
+                    </a>
                         <div class="btn-back" style="margin-left: 15px; border: 1px solid black; width: 117px"></div>
                     </div>
                 </div>
@@ -175,7 +190,7 @@
         <section>
             <div id="menHeading">
                 <h1 style="margin-left: 20px; font-size: larger;">MEN ORIGINALS</h1>
-                <a href="allProduct.html" style="font-size: larger;">SHOP ALL PRODUCTS</a>
+                <a href="./main/product.html" style="font-size: larger;">SHOP ALL PRODUCTS</a>
             </div>
             <div id="menOriginals"></div>
         </section>
@@ -346,11 +361,12 @@
                     <h4>JOIN ADIDAS AND GET 15% OFF</h4>
 
                     <div>
+                        <a href="./main/signup.html">
                         <button class="yellow_container_btn">
                             SIGN UP FOR FREE
 
                             <i class="fas fa-arrow-right" style="margin-left: 8px; color: white"></i>
-                        </button>
+                        </button></a>
                         <div class="btn-back"></div>
                     </div>
                 </div>
@@ -490,3 +506,14 @@
 
 <!-- js  -->
 <script src="./js/toogle.js"></script>
+<script>
+    // loader js 
+    function loaderAnimation() {
+        var loader = document.querySelector("#loader")
+        setTimeout(function () {
+            loader.style.top = "-100%"
+        }, 4200)
+    }
+
+    loaderAnimation()
+</script>

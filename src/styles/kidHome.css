@@ -30,7 +30,7 @@ section > div > div:hover {
   font-family: AdineuePRO, Helvetica, Arial, sans-serif;
 }
 
-#displayContents > div,
+
 #menOriginals > div,
 #bestOfAdidas > div {
   /* border: 1px solid black; */
@@ -44,7 +44,6 @@ section > div > div:hover {
   display: none;
 }
 
-#displayContents,
 #menOriginals,
 #bestOfAdidas {
   display: flex;
@@ -56,19 +55,6 @@ section > div > div:hover {
   height: 570px;
 }
 
-/* #displayContents{
-    height: 525px;
-} */
-
-.cards > {
-  height: auto;
-}
-
-
-.card>a{
-  color: #000000;
-  font-weight: 700;
-}
 
 #menOriginals,
 #bestOfAdidas {
@@ -283,9 +269,7 @@ section > div > div:hover {
     width: 50%;
     height: auto;
   }
-  #displayContents > div {
-    min-width: 40%;
-  }
+
   #menOriginals > div,
   #bestOfAdidas > div {
     min-width: 31%;
@@ -323,9 +307,7 @@ section > div > div:hover {
     width: 40%;
     height: auto;
   }
-  #displayContents > div {
-    min-width: 85%;
-  }
+
   #menOriginals > div,
   #bestOfAdidas > div {
     min-width: 42%;
@@ -362,7 +344,7 @@ section > div > div:hover {
   width: 100%;
   height: 100vh;
   min-height: 30vh;
-  background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/running_fw24_ub5x_global_launch_fglp_banner_hero_d_a5aab1e171.jpg");
+  background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/originals_ss24_franchise_toolkit_purple_samba_kidslp_mh_d_78a3482334.jpg");
   background-size: cover;
   display: flex;
   align-items: flex-end;
@@ -411,7 +393,7 @@ section > div > div:hover {
     height: 60vh;
     background-size: cover;
     width: 100%;
-    background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_960,w_960/enIN/Images/Deepika_x_Marimekko_1200x1000_29th_Oct_T_tcm209-799925.jpg");
+    background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_960,w_960/originals_ss24_franchise_toolkit_purple_samba_kidslp_mh_t_183daf46cc.jpg");
   }
   .poster_container {
     margin-bottom: 20px;
@@ -424,12 +406,13 @@ section > div > div:hover {
     justify-content: center;
     width: 100%;
     min-width: 100%;
-    background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/enIN/Images/Deepika_x_Marimekko_800x1000_29th_Oct_M_tcm209-799924.jpg");
+    background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/originals_ss24_franchise_toolkit_purple_samba_kidslp_mh_m_784cb89801.jpg");
   }
   .poster_container {
     margin-bottom: 20px;
   }
 }
+
 
 /* poster media queries end  */
 
@@ -939,5 +922,54 @@ footer {
   }
 }
 
+
+
+/* kid css start here  */
+.container-1300 {
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    padding: 10px;
+}
+
+#displayContents {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap; /* Prevent wrapping, to keep all items in a single line */
+    overflow-x: auto; /* Allow horizontal scrolling within this container */
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 300px; 
+}
+
+.card img, .card video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h4, .card p {
+    margin: 10px 0;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: black; 
+    font-weight: bold;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .container-1300 {
+        padding: 0 15px; /* Reduce padding for smaller screens */
+    }
+
+    #displayContents {
+        padding-bottom: 15px; /* Space at the bottom for scrollbar */
+    }
+}
 
 

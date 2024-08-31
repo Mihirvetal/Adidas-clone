@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adidas</title>
-    <link rel="stylesheet" href="../styles/login.css" />
+    <title>Adidas | Wishlist</title>
+ 
     <link rel="icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/250px-Adidas_Logo.svg.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="../styles/wishlist.css" />
     <script src="https://kit.fontawesome.com/683b4b40e3.js" crossorigin="anonymous"></script>
 </head>
 
-
 <body>
-    <!-- navbar start ==================================================== -->
+    <!-- <div id="container"> -->
     <nav class="nav">
         <div class="uppernav">
             <div class="container flex">
-                <p><a href="">SIGN UP <span>&</span> GET 15% OFF V</a></p>
+                <p><a href="">SIGN UP & GET 15% OFF V</a></p>
             </div>
         </div>
         <div class="container">
@@ -28,9 +28,9 @@
                     <p><a href="">help</a></p>
                     <p><a href="">returns</a></p>
                     <p><a href="">order tracker</a></p>
-                    <p><a href="../main/signup.html">sign up</a></p>
+                    <p><a href="signup.html">sign up</a></p>
                     <p><a href="">creators club</a></p>
-                    <p><a href="../main/login.html">log in</a></p>
+                    <p><a href="login.html">log in</a></p>
                 </div>
 
                 <div class="midnav">
@@ -41,15 +41,15 @@
                     </div>
                     <div class="hamnames">
                         <li>
-                            <a href="./menHome.html"><strong>MEN</strong></a>
+                            <a href="menHome.html"><strong>MEN</strong></a>
                         </li>
                         <li>
-                            <a href="./womenHome.html"><strong>WOMEN</strong></a>
+                            <a href="womenHome.html"><strong>WOMEN</strong></a>
                         </li>
                         <li>
-                            <a href=""><strong>KIDS</strong></a>
+                            <a href="kidHome.html"><strong>KIDS</strong></a>
                         </li>
-                        <li><a href="./login.html">LOG IN</a></li>
+                        <li><a href="login.html">LOG IN</a></li>
                     </div>
 
                     <div class="logodiv">
@@ -58,19 +58,19 @@
                     </div>
                     <div class="cat displaynone">
                         <p>
-                            <a href="./menHome.html"><strong>MEN</strong></a>
+                            <a href="menHome.html"><strong>MEN</strong></a>
                         </p>
                         <p>
-                            <a href="./womenHome.html"><strong>WOMEN</strong></a>
+                            <a href="womenHome.html"><strong>WOMEN</strong></a>
                         </p>
                         <p>
-                            <a href="./kidHome.html"><strong>KIDS</strong></a>
+                            <a href="kidHome.html"><strong>KIDS</strong></a>
                         </p>
                         <p>
                             <a href="womenWithHeader.html"><strong>SPORTS</strong></a>
                         </p>
                         <p>
-                            <a href="womenWithHeader.html"><strong>LIFESTYLE</strong></a>
+                            <a href="womenWithHeader.html"><strong>LIFESTYLES</strong></a>
                         </p>
                         <p>
                             <a href="womenWithHeader.html"><strong>SALE</strong></a>
@@ -102,106 +102,41 @@
         </div>
     </nav>
 
-    <!-- login page start ========================================== -->
-
-    <div class="container">
-        <div class="login-section">
-            <div class="left">
-                <img src="https://image.slidesharecdn.com/beyondconversion-creatingdelightfulexperiencesthatalignyourbrandwithcustomergoals-221016211349-661ee036/75/Beyond-Conversion-Creating-Delightful-Experiences-that-Align-your-Brand-with-Customer-Goals-2-2048.jpg"
-                    alt="image" class="loginimg">
-                <h1>JOIN THE CLUB.GET REWARDED.</h1>
-                <!-- <h1>GET REWARDED.</h1> -->
-                <p><span>&#x2713;</span> Free delivery</p>
-                <p><span>&#x2713;</span> 10% off your next purchase</p>
-                <p><span>&#x2713;</span> Access to Members Only products and sales</p>
-                <p><span>&#x2713;</span> Access to adidas Running and Training apps</p>
-                <p><span>&#x2713;</span> Special offers and promotions</p>
-                <p>Join now to start earning points, reach new levels and unlock more rewards and benefits from adiClub.
-                </p>
-            </div>
-            <div class="right">
-                <img src="https://account-frontends.adidas.com/account-portal/v1/assets/adiclub-blue-desktop.e34c412f9253e8d5.svg"
-                    alt="addidas_image">
-                <h1>YOUR ADICLUB BENEFITS AWAIT</h1>
-                <p>Get free shipping, discount vouchers and members only products when you’re in adiClub.</p>
-                <h3>Log in (it’s free)</h3>
-
-
-
-
-                <form id="loginForm">
-                    <div class="form-group">
-                        <label for="email">Email Address <span style="color: red;">*</span></label>
-                        <input type="email" id="email" required>
-
-                        
-                        <label for="password">Password <span style="color: red;">*</span></label>
-                        <input type="password" id="password" required min="8" max="16">
-                    </div>
-                    <div class="form-group">
-                        <input type="checkbox" id="newsletter" >
-                        <label for="newsletter">I would like to stay up to date with adidas. I agree to receive
-                            personalized
-                            marketing messages from adidas India Marketing Pvt. Ltd.</label>
-                        <br><label><a href="login.html">Read More</a></label>
-                    </div>
-                    <div class="form-group">
-                        <input type="checkbox" id="terms" >
-                        <label for="terms">I have read and accepted the <a href="#">terms <span>&</span> conditions</a> and the <a
-                                href="#">privacy policy</a>.</label>
-                    </div>
-
-
-
-                    <div style="margin-top: 20px; padding: 10px;width: 500px; ">
-                        <input type="submit" value="Continue" class="yellow_container_btn2"
-                            style=" background-color: black; color: white; margin-left: 8px; width: 98px; ">
-                            
-
-                            
-                   
-                        <div class="btn-back" style="margin-left: 15px; border: 1px solid black; width: 97px; height: 45px; margin-top: 5px;">
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-
-
+    <!-- wishlist section start here  -->
     <section>
         <div id="login_cart_bar">
             <div>
                 <h5>LOG IN</h5>
             </div>
             <div>
-                <h5>YOUR BAG(<span id="cart-item"></span>)</h5>
+                <h5>
+                    YOUR BAG(<span id="cart-item"></span>)
+                </h5>
             </div>
         </div>
     </section>
-
-
-
-
-
-
-    <!-- yellow container starts here  -->
     <section>
-        <div class="yellow_container">
-            <div class="container">
-                <div class="yellow_container_heading">
-                    <h4>JOIN ADIDAS AND GET 15% OFF</h4>
+        <div class="container-1300">
+            <h1 class="mywish">MY WISHLIST</h1>
+            <p class=" mywish mywish_length"><span id="myWishLen"></span> items </p>
+            <div style="display: flex; justify-content: space-around;">
+                <!-- <div id="wishContain"> -->
 
-                    <div>
-                        <button class="yellow_container_btn">
-                            SIGN UP FOR FREE
-
-                            <i class="fas fa-arrow-right" style="margin-left: 8px; color: white"></i>
-                        </button>
-                        <div class="btn-back"></div>
-                    </div>
+                <div id="womenOriginals">
                 </div>
+
+                <div class="help">
+                    <h1>NEED HELP?</h1>
+
+                    <p><a href="">Products</a></p>
+                    <p><a href="">Ordering & Payments</a></p>
+                    <p><a href="">Delivery</a></p>
+                    <p><a href="">Promotions & Vouchers</a></p>
+                    <p><a href="">Return & Refund</a></p>
+                    <p><a href="">Account & Newsletter</a></p>
+                    <p><a href="">Company information</a></p>
+                </div>
+
             </div>
         </div>
 
@@ -210,7 +145,7 @@
 
     <!-- product-list start here  -->
     <section>
-        <div class="container">
+        <div class="container-1300">
             <div id="product_list">
                 <div>
                     <h5>PRODUCTS</h5>
@@ -253,7 +188,7 @@
                     <ul>
                         <li>Help</li>
                         <li>Customer Services</li>
-                        <li>Returns <span>&</span>Exchanges</li>
+                        <li>Returns & Exchanges</li>
                         <li>Shipping</li>
                         <li>Order Tracker</li>
                         <li>Store Locator</li>
@@ -277,14 +212,14 @@
                     <h5>FOLLOW US</h5>
                     <ul>
                         <li><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/NE_Winstagram_logo_footer_tcm209_875968_e40414a503.png"
-                                alt=""></li>
+                                alt="" style="width: 12%;"></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- unknown -->
+
     <section>
         <div id="small_screenProductList">
             <div>
@@ -304,67 +239,37 @@
         </div>
     </section>
 
-    <!-- footer start here ======================== -->
     <footer>
-        <div class="blackfoot">
-            <div class="privacy-foot">
-                <div class="privacy-upp">
-                    <p>Privacy Policy</p>
-                    <hr>
-                    <p>Terms and Conditions</p>
-                    <hr>
-                    <p>Cookies</p>
+        <div class="footsignup"></div>
+
+        <div></div>
+
+        <div class="lastfoot">
+            <div class="container">
+                <div class="lastfoot1">
+                    <div>
+                        <img class="indialogo" src="https://adl-foundation.adidas.com/flags/1-0-0/in.svg" alt="" />India
+                    </div>
+
+                    <div class="copyright">
+                        <a href="">©2024 adidas India Marketing Pvt. Ltd</a>
+                    </div>
                 </div>
-                <div class="privacy-down">
-                    <p>©2024 adidas India Marketing Pvt. Ltd</p>
+
+                <div class="tnc">
+                    <p><a href="">Privacy</a></p>
+                    <p><a href="">Terms & Conditions</a></p>
+                    <p><a href="" style="border: none;">Cookies</a></p>
                 </div>
             </div>
         </div>
     </footer>
 
+    <!-- </div> -->
+
+
 </body>
 
-
 </html>
-
-<!-- js  -->
-<script>
-function loginfn(){
-    event.preventDefault();
-    console.log("username");
-    const username = document.getElementById("email").value.trim();
-    const password = document.getElementById("password").value.trim();
-    
-    const api = "AIzaSyDHO9-l6UOCnT2HN7EdAJczOb3Se8LDTQY";
-    
-    const raw = JSON.stringify({
-        "email": username,
-        "password": password
-    });
-    
-    const requestOptions = {
-        method: "POST",
-        body: raw,
-        redirect: "follow",
-    };
-    
-    fetch(
-        `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${api}`,
-    requestOptions
-)
-.then((response) => response.json())
-.then((result) => {
-    result.idToken
-    ? (alert("Welcome Back, We Missed You 🥹"),
-    localStorage.setItem("idToken", result.idToken),
-    (window.location.href = "../index.html"))
-    : alert("Invalid credentials. Please try again.");
-})
-.catch((error) => console.log("error", error));
-
-
-}
-
-document.getElementById("loginForm").addEventListener("submit", loginfn);
-
-</script>
+<script src="../js/toogle.js"></script>
+<script src="../js/wishlist.js"></script>

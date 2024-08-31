@@ -16,6 +16,56 @@ body{
   max-width: 1500px;
   margin: auto;
 }
+  
+/* loader animation css  */
+
+#loader {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  transition: all ease 0.7s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#loader h1 {
+  font-size: 4vw;
+  /* color: transparent; */
+  color: white;
+  /* background: linear-gradient(to right,rgb(7, 207, 230),rgb(6, 57, 185)); */
+  -webkit-background-clip: text;
+  position: absolute;
+  opacity: 0;
+  animation-name: load;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+}
+#loader h1:nth-child(2) {
+  animation-delay: 2s;
+}
+#loader h1:nth-child(3) {
+  animation-delay: 3s;
+}
+
+@keyframes load {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 #productSection {
   padding: 0px 12px;
@@ -393,7 +443,7 @@ section > div > div:hover {
     background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/FW_24_ultima_hp_banner_hero_d_d285fb5471.png");
   }
   .poster_container {
-    margin-bottom: 20px;
+    margin-bottom: -80px;
   }
 }
 
@@ -649,12 +699,12 @@ footer {
 }
 .hamnames {
   list-style: none;
-  background-color: #fff;
-  color: black;
-  height: 100vh;
-  width: 100vw;
-  display: none;
-  margin-left: -70px;
+    background-color: #fff;
+    color: black;
+    height: 52vh;
+    width: 100vw;
+    display: none;
+    margin-left: -20px;
 }
 
 .category {

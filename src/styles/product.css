@@ -16,68 +16,9 @@
   margin: auto;
 }
 
-#productSection {
-  padding: 0px 12px;
-  margin: 80px 0px;
-}
 
 section > div > div:hover {
   cursor: pointer;
-}
-
-#productSection > section > h1 {
-  margin: 20px 0px;
-  font-family: AdineuePRO, Helvetica, Arial, sans-serif;
-}
-
-#displayContents > div,
-#menOriginals > div,
-#bestOfAdidas > div {
-  /* border: 1px solid black; */
-  min-width: 21%;
-  font-family: "Noto Sans", sans-serif;
-  position: relative;
-  
-}
-
-#displayContents::-webkit-scrollbar{
-  display: none;
-}
-
-#displayContents,
-#menOriginals,
-#bestOfAdidas {
-  display: flex;
-  gap: 20px;
-  width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  /* padding-right: 20px; */
-  height: 570px;
-}
-
-/* #displayContents{
-    height: 525px;
-} */
-
-.cards > {
-  height: auto;
-}
-
-
-.card>a{
-  color: #000000;
-  font-weight: 700;
-}
-
-#menOriginals,
-#bestOfAdidas {
-  height: 390px;
-  margin-bottom: 50px;
-}
-#menOriginals > div:hover,
-#bestOfAdidas > div:hover {
-  border: 1px solid black;
 }
 
 #menHeading {
@@ -112,19 +53,6 @@ section > div > div:hover {
   margin-bottom: 20px;
 }
 
-/* #productSection::-webkit-scrollbar {
-  width: 12px;               width of the entire scrollbar
-}
-
-#productSection::-webkit-scrollbar-track {
-  background: gray;        color of the tracking area
-}
-
-#productSection::-webkit-scrollbar-thumb {
-  background-color: black;    color of the scroll thumb
-  border-radius: 20px;       roundness of the scroll thumb
-  border: 3px solid orange;  creates padding around scroll thumb
-} */
 
 
 .wishlistSymbol {
@@ -170,98 +98,9 @@ section > div > div:hover {
   left: 0px;
 }
 
-#productSection img {
-  width: 100%;
-}
-
-#productSection h4 {
-  margin: 5px 0px;
-  font-size: 16px;
-}
-
-#productSection p {
-  margin: 10px 0px;
-  font-size: 16px;
-  color: rgb(44, 44, 44);
-}
-
-#productSection > section:nth-child(2) a {
-  color: black;
-  font-size: 13px;
-  font-weight: 700;
-  /* position: absolute;
-    bottom: 10px; */
-}
-
-#productSection > section:nth-child(2) a:hover {
-  color: white;
-  background-color: #000000;
-  padding: 5px 5px;
-  text-decoration: none;
-  /* position: absolute;
-    bottom: 10px; */
-}
-
-#productSection h6 {
-  margin: 2px;
-  font-weight: 500;
-  font-size: 15px;
-}
-
-#menDescription {
-  margin: auto;
-  margin-bottom: 50px;
-  width: 750px;
-  text-align: center;
-  font-family: AdineuePRO, Helvetica, Arial, sans-serif;
-}
-
-#menDescription>h1 {
-   font-size: 40px;
-  }
-
-#menDescription > p {
-  margin-top: 20px;
-  font-size: 17px;
-  font-family: "Work Sans", sans-serif;
-}
 
 /* -------------------------------------------- */
 
-#container_banner {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-  margin: 50px auto;
-  height: 250px;
-}
-
-.container_banneer_img1 {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #ebeff1;
-}
-
-.container_banneer_img1 > img {
-  width: 80%;
-  height: 200px;
-}
-
-.container_banneer_img1 > h5 {
-  text-decoration: underline;
-  margin-top: 10px;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 12px;
-  letter-spacing: 2px;
-}
-
-.container_banneer_img1 > h5:hover {
-  cursor: pointer;
-  background-color: black;
-  color: white;
-}
 
 @media only screen and (min-width: 600px) and (max-width: 960px) {
   #container_banner {
@@ -291,9 +130,7 @@ section > div > div:hover {
     min-width: 31%;
   }
 
-  #productSection > section > h1 {
-    margin: 20px 0px;
-  }
+  
   section {
     margin: 50px 0px;
   }
@@ -303,44 +140,10 @@ section > div > div:hover {
   .price1 {
     bottom: 50px;
   }
-  #menDescription {
-    width: 90%;
-  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 599px) {
-  #container_banner {
-    grid-template-columns: repeat(1, 1fr);
-    height: 580px;
-  }
-  .container_banneer_img1 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-  .container_banneer_img1 > img {
-    width: 40%;
-    height: auto;
-  }
-  #displayContents > div {
-    min-width: 85%;
-  }
-  #menOriginals > div,
-  #bestOfAdidas > div {
-    min-width: 42%;
-  }
-
-  #menHeading>.button>button{
-    display: none;
-  }
-
-  #menDescription {
-    width: 90%;
-  }
-  #productSection > section > h1 {
-    margin: 20px 0px;
-  }
+  
   section {
     margin: 50px 0px;
   }
@@ -358,80 +161,6 @@ section > div > div:hover {
   margin: 0px;
 }
 
-#poster {
-  width: 100%;
-  height: 100vh;
-  min-height: 30vh;
-  background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/running_fw24_ub5x_global_launch_fglp_banner_hero_d_a5aab1e171.jpg");
-  background-size: cover;
-  display: flex;
-  align-items: flex-end;
-}
-
-.poster_container {
-  width: 90%;
-  margin-left: 10%;
-  margin-bottom: 20%;
-}
-
-.poster_container > h2 {
-  color: white;
-  font-size: 36px;
-  margin-top: 20px;
-}
-
-.poster_container > button {
-  padding: 15px 25px;
-  background-color: white;
-  color: black;
-  font-size: 13px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-
-.poster_container > i {
-  font-size: 20px;
-  color: black;
-  margin-left: 10px;
-}
-
-.poster_container > h1 {
-  margin-top: 70px;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-/* poster css end */
-
-/* poster media queries start  */
-
-@media only screen and (min-width: 600px) and (max-width: 960px) {
-  #poster {
-    align-items: flex-end;
-    height: 60vh;
-    background-size: cover;
-    width: 100%;
-    background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_960,w_960/enIN/Images/Deepika_x_Marimekko_1200x1000_29th_Oct_T_tcm209-799925.jpg");
-  }
-  .poster_container {
-    margin-bottom: 20px;
-  }
-}
-
-@media only screen and (min-width: 0px) and (max-width: 599px) {
-  #poster {
-    align-items: flex-end;
-    justify-content: center;
-    width: 100%;
-    min-width: 100%;
-    background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/enIN/Images/Deepika_x_Marimekko_800x1000_29th_Oct_M_tcm209-799924.jpg");
-  }
-  .poster_container {
-    margin-bottom: 20px;
-  }
-}
-
-/* poster media queries end  */
 
 /* yellow container css start */
 
@@ -496,79 +225,7 @@ section > div > div:hover {
 
 /* yellow container css end */
 
-/* men product list  */
-#men_product_list {
-    display: flex;
-    padding: 10px;
-    width: 98%;
-    justify-content: center;
-    margin-bottom: 150px;
-  }
-  
-  #men_product_list > div {
-    margin-top: 20px;
-    width: 20%;
-  }
-  
-  #men_product_list > div > h5 {
-    font-size: 18px;
-    letter-spacing: -1px;
-    margin-bottom: 5px;
-    font-family: AdineuePRO, Helvetica, Arial, sans-serif;
-  }
-  
-  
-  #men_product_list > div > ul {
-    list-style: none;
-    padding-left: 0px;
-  }
-  
-  
-  #men_product_list > div > ul > li {
-    padding: 6px;
-    padding-left: 0px;
-    font-size: 15px;
-    font-family: AdineuePRO, Helvetica, Arial, sans-serif;
-  }
-  
 
-  #men_product_list > div > ul > li:hover {
-    cursor: pointer;
-    text-decoration: underline;
-  }
-
-  /* --------------------------------------------------------------------- */
-
-#login_cart_bar {
-  display: none;
-  justify-content: space-around;
-  background-color: black;
-  color: white;
-}
-
-#login_cart_bar > div {
-  padding: 20px;
-  font-family: AdineuePRO, Helvetica, Arial, sans-serif;
-}
-
-#product_list {
-  display: flex;
-  padding: 10px;
-  width: 100%;
-  justify-content: center;
-}
-
-#product_list > div {
-  margin-top: 20px;
-  width: 11%;
-}
-
-#product_list > div > h5 {
-  font-size: 18px;
-  letter-spacing: -1px;
-  margin-bottom: 5px;
-  font-family: AdineuePRO, Helvetica, Arial, sans-serif;
-}
 
 #small_screenProductList > div > ul,
 #product_list > div > ul {
@@ -606,10 +263,6 @@ section > div > div:hover {
   }
 
   #product_list {
-    display: none;
-  }
-
-  #men_product_list{
     display: none;
   }
 
@@ -816,9 +469,7 @@ footer {
   display: none;
 }
 
-.center {
-  background-color: #f0d7bb;
-}
+
 
 .lastfoot {
   background-color: #363738;
@@ -940,4 +591,408 @@ footer {
 }
 
 
+/* all product start here */
+.woriginals{
+    font-weight: 600;
+    font-style: italic;
+    line-height: 20px;
+    font-size: 45px;
+    padding-top: 2%;
+    /* padding-bottom: 1%; */
+    margin-left: 2%;
+}
+.center>.container>p{
+    padding-top: 2%;
+    width: 50%;
+    margin-left: 2%;
+    line-height: 20px;
+    color: rgb(66, 61, 61);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.backwomen{
+    display: flex;
+    width: 15%;
+    margin-left: 2%;
+    padding-top: 40px;
+    font-weight: 600;
+}
+.backwomen>div>a{
+    color: black;
+    font-size: 15px;
+    padding: 0px 10px;
+}
+
+.backwomen>div>a:hover{
+    color: white;
+    background-color: #000000;
+}
+.hrline{
+    border: .4px solid rgb(235, 230, 230);
+    margin-top: 10px;
+    width: 100%;
+}
+.selectedcat{
+    display: flex;
+    width: 25%;
+    padding-top: 10px;
+    margin-left: 5%;
+}
+.selectedcat>select{
+    border: none;
+    font-size: 15px;
+    color: rgb(97, 89, 89);
+    margin: auto 20px;
+}
+
+#wishlistLen{
+position: absolute;
+top:-4px;
+right:11%;
+border-radius: 50%;
+background-color:#197fb6;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+color:white;
+
+}
+@media only screen and (min-width: 0px) and (max-width: 960px) {
+   #wishlistLen{
+       display:none;
+   } 
+}
+
+.disicon {
+    margin: 15px;
+    margin-right: 10px;
+}
+#cartLen{
+    position: absolute;
+top:-4px;
+right:-2%;
+border-radius: 50%;
+background-color:#197fb6;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+color:white;
+
+}
+
+
+.fas, .far {
+    color: #000000;
+}
+
+.searchicon {
+    display: none;
+}
+
+#login_cart_bar {
+    display: none;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+
+}
+
+#login_cart_bar>div {
+    padding: 20px;
+    font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+}
+
+#product_list {
+    display: flex;
+    padding: 10px;
+    width: 98%;
+    justify-content: center;
+}
+
+#product_list>div {
+    margin-top: 20px;
+    width: 15%;
+}
+
+#product_list>div>h5 {
+    font-size: 18px;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+    font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+
+}
+
+#small_screenProductList>div>ul,
+#product_list>div>ul {
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+#small_screenProductList>div>ul>li,
+#product_list>div>ul>li {
+    padding: 6px;
+    padding-left: 0px;
+    font-size: 12px;
+    font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+}
+
+#small_screenProductList>div>ul>li:hover,
+#product_list>div>ul>li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#small_screenProductList {
+    background-color: black;
+    display: none;
+    justify-content: space-around;
+    color: white;
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+@media only screen and (min-width:0px)and (max-width:960px) {
+    #login_cart_bar {
+        display: flex;
+    }
+
+    #product_list {
+        display: none;
+    }
+
+    #small_screenProductList {
+        display: flex;
+    }
+
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+    .cat {
+        width: 50%;
+        font-size: 11px;
+    }
+
+    .search {
+        height: 30px;
+        width: 160px;
+    }
+
+    .firstnav {
+        padding-left: 60%;
+    }
+
+    .logodiv {
+        margin-left: 1%;
+    }
+
+    .tnc {
+        display: flex;
+        margin-top: -50px;
+        margin-left: 60%;
+        margin-right: 2%;
+    }
+
+    .tnc>p>a {
+        word-spacing: 5%;
+    }
+    
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 900px) {
+
+    .logodiv {
+        margin-top: 12px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .displaynone, .heart, .uppernav :nth-child(2), .uppernav :nth-child(3) {
+        display: none;
+    }
+
+    .icons {
+        margin-top: 20px;
+        margin-right: 2%;
+    }
+
+    .searchicon {
+        display: initial;
+        margin-left: 5px;
+    }
+
+    .hamburger {
+        display: initial;
+        margin: 15px 2%;
+    }
+    
+    .tnc {
+        display: block;
+        line-height: 20px;
+    }
+
+    .indialogo {
+        margin-left: 2%;
+        margin-top: 20px;
+    }
+
+    .copyright>a {
+        margin-left: 2%;
+    }
+    .woriginals{
+        font-size: 20px;
+    }
+    .center>p{
+        display: none;
+    }
+    .selectedcat>select{
+
+        font-size: 12px;
+
+    }
+    .backwomen{
+        display: block;
+    }
+
+}
+
+/* productstyle start here  */
+#allProductDiv * {
+    box-sizing: border-box;
+}
+
+/* Grid Container */
+#allProductDiv {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px; 
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Individual Product Styling */
+#allProductDiv > div {
+    position: relative;
+    padding-bottom: 5%;
+    border: 1px solid transparent;
+    transition: border-color 0.3s; 
+}
+
+#allProductDiv > div:hover {
+    border-color: black; 
+}
+
+/* Image Styling */
+#allProductDiv img {
+    width: 100%;
+    height: auto;
+}
+
+/* Price Tag Styling */
+#allProductDiv .price {
+    position: absolute;
+    top: 68%;
+    background-color: white;
+    padding: 0px 5px;
+    font-size: 16px;
+}
+
+/* Product Description Styling */
+#allProductDiv > div > p:nth-child(n+3) {
+    margin: 5px auto;
+    font-size: 15px;
+}
+
+/* Wishlist and Cart Icons */
+#allProductDiv .wishlistSymbol,
+#allProductDiv .cartSym {
+    position: absolute;
+    right: 5%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#allProductDiv .wishlistSymbol {
+    top: 5%;
+}
+
+#allProductDiv .cartSym {
+    top: 64%;
+    color: rgb(42, 42, 42);
+}
+
+/* Responsive Grid Adjustments */
+@media screen and (min-width: 375px) and (max-width: 769px) {
+    #allProductDiv {
+        grid-template-columns: repeat(3,1fr); /* Smaller columns on smaller screens */
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 375px) {
+    #allProductDiv {
+        grid-template-columns: 1fr; /* 2 columns layout on very small screens */
+    }
+}
+
+
+
+/* previous nex button */
+/* Container for pagination controls */
+#paginationControls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+/* Page number display */
+#pageNumber {
+  margin: 0 15px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Pagination buttons */
+#prevPage, #nextPage {
+  padding: 10px 20px;
+  border: none;
+  background-color: black; 
+  color: white; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  border: 2px solid black;
+}
+
+/* Disabled state for buttons */
+#prevPage:disabled, #nextPage:disabled {
+  background-color: #999; 
+  cursor: not-allowed;
+  border: 2px solid #999;
+}
+
+/* Hover state for buttons */
+#prevPage:hover:not(:disabled), #nextPage:hover:not(:disabled) {
+  background-color: #669bbc; 
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  #paginationControls {
+      flex-direction: column;
+  }
+
+  #pageNumber {
+      margin: 10px 0;
+  }
+
+  #prevPage, #nextPage {
+      width: 100%;
+      margin: 5px 0;
+  }
+}
 

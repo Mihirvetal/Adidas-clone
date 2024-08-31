@@ -5,12 +5,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Women Shoes, Clothing and Accessories</title>
-   
+    <title>Adidas Online Sale | Products</title>
     <link rel="icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/250px-Adidas_Logo.svg.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="../styles/womenHome.css" />
+    <link rel="stylesheet" href="../styles/product.css" />
     <script src="https://kit.fontawesome.com/683b4b40e3.js" crossorigin="anonymous"></script>
 </head>
 
@@ -28,9 +27,9 @@
                     <p><a href="">help</a></p>
                     <p><a href="">returns</a></p>
                     <p><a href="">order tracker</a></p>
-                    <p><a href="signup.html">sign up</a></p>
+                    <p><a href="./signup.html">sign up</a></p>
                     <p><a href="">creators club</a></p>
-                    <p><a href="login.html">log in</a></p>
+                    <p><a href="./login.html">log in</a></p>
                 </div>
 
                 <div class="midnav">
@@ -102,207 +101,57 @@
         </div>
     </nav>
 
-    <!-- poster section start here -->
-    <section>
-        <div id="poster">
-            <div class="container" style="margin: 0;">
-                <div class="poster_container">
-                    <h2>ULTRABOOST 5</h2>
-                    <p style="
-                color: white;
-                font-size: 1rem;
-                font-weight: 400;
-                margin-top: 15px;">
-                        More cushion. More comfort. Less weight. Ultra energy.
-                    </p>
-                    <p style="
-                color: white;
-                font-size: 1rem;
-                font-weight: 400;
-                margin-top: 15px;">
-                        The Ultraboost 5 is here.
-                    </p>
-                    <div style="margin-top: 20px">
-                        <a href="./main/product.html">
-                        <button class="yellow_container_btn" style="left: 10px; background-color: white; color: black">
-                            SHOP NOW
-
-                            <i class="fas fa-arrow-right" style="margin-left: 8px; color: black"></i>
-                        </button></a>
-                        <div class="btn-back" style="margin-left: 15px; border: 1px solid white; width: 100px"></div>
-                    </div>
-                </div>
+    <!-- all product starts here  -->
+    <section class="center">
+        <div class="container">
+            <div class="backwomen">
+                <div><a href="#" onclick="goBack()">Back</a></div>
+                <div><a href="../index.html">Home</a></div>
+                <div><a href="#">All products</a></div>
+            </div>
+            <h1 class="woriginals">ALL PRODUCTS</h1>
+            <p>Our adidas Originals range contains all the classic adidas clothing that you've come to love over
+                the years. Take a walk down memory lane with our reinvigorated versions of retro icons.</p>
+        </div>
+        
+        <div class="hrline"></div>
+        <div class="container">
+            <div class="selectedcat">
+                <select id="sortByGender">
+                    <option value="">GENDER</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="kids">Kids</option>
+                </select>
+                <select id="filterByType">
+                    <option value="">PRODUCT TYPE</option>
+                    <option value="Topwear">Topwear</option>
+                    <option value="Bottomwear">Bottomwear</option>
+                    <option value="Accessory">Accessory</option>
+                    <option value="Shoes">Shoes</option>
+                </select>
+                <select id="sortByPrice">
+                    <option value="">SORT By</option>
+                    <option value="lowToHigh">Price [low - high]</option>
+                    <option value="highToLow">Price [high - low]</option>
+                </select>
+    
             </div>
         </div>
-    </section>
+        
+        
+        <div class="hrline"></div>
+        <div class="container-1300"><div id="allProductDiv"></div></div>
 
-    <!-- product section start here  -->
-    <section id="productSection">
-        <section>
-            <div class="container-1300">
-                <div id="menHeading">
-                    <!-- <h1>MEN ORIGINALS</h1> -->
-                    <div class="button">
-                        <button style="background-color: black; border: 2px solid black; color: white;">All
-                            T-Toe</button>
-                        <button>Samba</button>
-                        <button>Gazelle</button>
-                        <button>Spezial</button>
-                    </div>
-                    <a href="product.html">SHOP ALL PRODUCTS</a>
-                </div>
-                <div id="menOriginals"></div>
+        <div class="container-1300" style="text-align: center; margin: 50px 10px;">
+            <div id="paginationControls">
+                <button id="prevPage" disabled>Previous</button>
+                <span id="pageNumber">Page 1</span>
+                <button id="nextPage">Next</button>
             </div>
-        </section>
-
-        <!-- best of addidas start here  -->
-        <section>
-            <div class="container-1300">
-                <h1>BEST OF ADIDAS</h1>
-                <div id="bestOfAdidas"></div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container-1300">
-                <div id="displayContents">
-                    <div class="card">
-                        <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/fw24_ec_clot_august_collection_launch_confirmed_glp_w_tc_d_b0e18c625b.jpg"
-                            alt="" />
-                        <h4>CLOT August Collection by Edison Chen</h4>
-                        <p>Craft your own reality with the first global unisex collection
-                            from adidas Originals
-                        </p>
-                        <a href="">SHOP NOW</a>
-                    </div>
-                    <div class="card">
-                        <img src="https://brand.assets.adidas.com/image/upload/f_gif,fl_lossy,q_auto/em_in_paralympics_hp_card_d_865fb725a9.gif"
-                            alt="" />
-                        <h4>YOU GOT THIS</h4>
-                        <p>
-                            Long pressure-filled years coming to a head. But it's only
-                            expectation.
-                        </p>
-                        <a href="">SHOP NOW</a>
-                    </div>
-                    <div class="card">
-                        <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/adicolor-FW21-Oct-HP_Teaser-Carousel-3-D-M-T_tcm209-730009.jpg"
-                            alt="" />
-                        <h4>CONTEMPORARY ADICOLOR</h4>
-                        <p>A contemporary take on classic adidas and Edison Chen</p>
-                        <a href="">SHOP NOW</a>
-                    </div>
-                    <div class="card">
-                        <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/Training_FW_24_Dropset3_global_Sustain_Q3_GLP_Female_Teaser_Card_d_80d3c0cc03.jpg"
-                            alt="" />
-                        <h4>Dropset 3</h4>
-                        <p>Add power with controlled stability and Edison Chen</p>
-                        <a href="">SHOP NOW</a>
-                    </div>
-                    <div class="card">
-                        <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/em_in_one_star_t20_jersey_cricket_crd_d_3381519141.jpg"
-                            alt="" />
-                        <h4>OWN THE JERSEY</h4>
-                        <p>Celebrate with the official team India T20 Jerse and Edison Chen</p>
-                        <a href="">SHOP NOW</a>
-                    </div>
-                    <div class="card">
-                        <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/running-fw21-adizero-september-launch-hp-teaser-carousel-gender-neutral-fallback-d_tcm143-720076_tcm209-758540.jpeg"
-                            alt="" />
-                        <h4>ADIDAS X MARIMEKKO</h4>
-                        <p>
-                            Support your every move in the adidas x Marimekko collaboration. and Edison Chen
-                        </p>
-                        <a href="">SHOP NOW</a>
-                    </div>
-                    <div class="card">
-                        <img src="https://brand.assets.adidas.com/image/upload/f_gif,fl_lossy,q_auto/em_in_fw24_walking_local_mglp_crd_d_b6b6a95d02.gif"
-                            alt="" />
-                        <h4>ENDLESS EFFORT</h4>
-                        <p>New Walking Range and Edison Chen Support your every move</p>
-                        <a href="">SHOP NOW</a>
-                    </div>
-                    <div class="card">
-                        <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/em_in_adicolor_fw24_hp_crd_d_f97cb85b26.png"
-                            alt="" />
-                        <h4>ADIDAS X MARIMEKKO</h4>
-                        <p>
-                            Support your every move in the adidas x Marimekko collaboration.
-                        </p>
-                        <a href="">SHOP NOW</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </section>
-
-
-
-
-
-    <!-- men description start here  -->
-    <section>
-        <div class="container-1300">
-            <div id="menDescription">
-                <h1>WOMEN’S CLOTHING & SHOES</h1>
-                <p>
-                    In sport and in life, creators aren’t content on the sidelines. adidas women’s shoes and apparel are
-                    made for those who understand that rules can be negotiated; expectations, evolved. Reach for a new
-                    personal best in apparel made of specialized performance fabrics. Accentuate your personal style in
-                    sport-inspired sneakers for your day-to-day. Whether sport is your life or you’re an athleisure
-                    fashionista, women’s clothing and footwear from adidas exist to help you redefine what’s possible.
-                </p>
-            </div>
+            
         </div>
-    </section>
-
-
-    <section>
-        <div class="container-1300">
-            <div id="men_product_list">
-                <div>
-                    <h5>WOMEN'S SHOES</h5>
-                    <ul style="list-style: none">
-                        <li>Women'S Shoes</li>
-                        <li>Women'S Sneakers</li>
-                        <li>Women'S Sandals</li>
-                        <li>Women'S White Shoes</li>
-                        <li>Women'S Black Shoes</li>
-                    </ul>
-                </div>
-                <div>
-                    <h5>WOMEN'S CLOTHING</h5>
-                    <ul>
-                        <li>Football Jerseys</li>
-                        <li>Women'S Hoodies</li>
-                        <li>Women'S Jackets</li>
-                        <li>Women'S Tracksuits</li>
-                        <li>Women'S T-Shirts</li>
-                    </ul>
-                </div>
-                <div>
-                    <h5>WOMEN'S ACCESSORIES</h5>
-                    <ul>
-                        <li>Women'S Backpacks</li>
-                        <li>Women'S Bags</li>
-                        <li>Women'S Socks</li>
-                        <li>Women'S Hat</li>
-                        <li>Women'S Training Bag</li>
-                    </ul>
-                </div>
-                <div>
-                    <h5>WOMEN'S COLLECTIONS</h5>
-                    <ul>
-                        <li>Women'S Running Shoes</li>
-                        <li>Women'S Football Shoes</li>
-                        <li>Women'S Walking Shoes</li>
-                        <li>Women'S Training Shoes</li>
-                        <li>Women'S Cricket Shoes</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        
     </section>
 
     <section>
@@ -325,12 +174,11 @@
                     <h4>JOIN ADIDAS AND GET 15% OFF</h4>
 
                     <div>
-                        <a href="./signup.html">
                         <button class="yellow_container_btn">
                             SIGN UP FOR FREE
 
                             <i class="fas fa-arrow-right" style="margin-left: 8px; color: white"></i>
-                        </button></a>
+                        </button>
                         <div class="btn-back"></div>
                     </div>
                 </div>
@@ -464,8 +312,15 @@
     </footer>
 
     <!-- </div> -->
+    
 </body>
 
 </html>
 <script src="../js/toogle.js"></script>
-<script src="../js/womenHome.js"></script>
+<script src="../js/product.js"></script>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+

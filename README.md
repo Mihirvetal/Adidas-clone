@@ -13,6 +13,8 @@ Frontend | Backend | Fullstack
 ## Directory Structure
 ```
 src/
+├─ images/
+│
 ├─ js/
 │   ├─ cart.js
 │   ├─ kidHome.js
@@ -40,6 +42,7 @@ src/
 │   ├─ womenHome.css
 ├─ index.html
 └─ readme.md
+
 ```
 
 
@@ -81,7 +84,20 @@ To interact with the Adidas clone:
 - Add to Wishlist: Click the wishlist icon on any product to add it to your wishlist.
 - View Cart: Add products to your cart and navigate to the cart page to view items and their prices.
 
-Include screenshots as necessary.
+## ScreenShots
+![Menpage Screenshot](./src/images/men1.png)
+![Menpage2 Screenshot](./src/images/men2.png)
+![product1 Screenshot](./src/images/product.png)
+![product2 Screenshot](./src/images/product2.png)
+![wishAndCart Screenshot](./src/images/wish_and_cart.png)
+![wishlist Screenshot](./src/images/wishlist.png)
+![cart Screenshot](./src/images/cart.png)
+![container Screenshot](./src/images/container.png)
+![responsive1 Screenshot](./src/images/responsive1.png)
+![responsive2 Screenshot](./src/images/responsive2.png)
+![responsive3 Screenshot](./src/images/responsive3.png)
+![responsive4 Screenshot](./src/images/responsive4.png)
+
 
 ## Credentials
 Currently, there is no authentication required for the frontend pages. If implementing Firebase authentication, provide test credentials for authenticated pages.

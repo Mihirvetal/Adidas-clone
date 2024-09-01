@@ -16,7 +16,10 @@ body{
   max-width: 1500px;
   margin: auto;
 }
-  
+.container-1300{
+  max-width: 1300px;
+  margin: auto;
+}
 /* loader animation css  */
 
 #loader {
@@ -124,6 +127,20 @@ section > div > div:hover {
   justify-content: space-between;
   width: 100%;
   margin-right: 10px;
+}
+#menHeading>.button>button{
+  border: 2px solid black;
+  padding: 15px 15px;
+  margin: 12px 0px;
+  background: transparent;
+  color: black;
+  font-weight: 600;
+}
+
+#menHeading>.button>button:hover{
+  border: 2px solid black;
+  background-color: black;
+  color: white;
 }
 #menHeading > a {
   color: black;
@@ -1034,4 +1051,25 @@ footer {
   .copyright > a {
     margin-left: 2%;
   }
+}
+
+
+/* dark theme   */
+
+:root {
+  /* Light theme colors */
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+.dark-theme {
+  /* Dark theme colors */
+  --background-color: #121212;
+  --text-color: #ffffff;
+}
+
+/* Use the variables in your CSS */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
 }

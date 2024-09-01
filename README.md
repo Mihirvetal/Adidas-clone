@@ -11,6 +11,7 @@ Frontend | Backend | Fullstack
 
 
 ## Directory Structure
+```
 src/
 ├─ js/
 │   ├─ cart.js
@@ -39,7 +40,7 @@ src/
 │   ├─ womenHome.css
 ├─ index.html
 └─ readme.md
-
+```
 
 
 ## Video Walkthrough of the project

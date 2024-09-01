@@ -4,11 +4,13 @@ Adidas Clone Project
 ## Introduction
 This project is an Adidas Clone designed to replicate the look and functionality of an e-commerce website like Adidas. The primary goal is to provide users with a seamless shopping experience, including features such as adding items to the cart, marking items as wishlist favorites, and using Firebase for user authentication. The core functionalities involve rendering JSON data for products, managing cart operations, and saving user preferences using local storage.
 
+
+
 ## Project Type
 Frontend | Backend | Fullstack
 
 ## Deplolyed App
-
+Link:  https://66d47374809e46081db20411--ubiquitous-tiramisu-c08e19.netlify.app/
 
 ## Directory Structure
 ```
@@ -47,10 +49,8 @@ src/
 
 
 ## Video Walkthrough of the project
-Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
+Link: https://youtu.be/M5_nTGNpDZk
 
-## Video Walkthrough of the codebase
-Attach a very short video walkthough of codebase [ 1 - 5 minutes ]
 
 ## Features
 The Adidas clone application includes the following key features:
@@ -72,6 +72,7 @@ To get the Adidas clone running on your local machine, follow these steps:
 1. Clone the repository:
     ```bash
     git clone https://github.com/Mihirvetal/binary-bawlers-033/tree/main
+
     cd binary-bawlers-033/src
     ```
 2. Open the index.html file in your web browser to start exploring the application.
@@ -102,13 +103,13 @@ To interact with the Adidas clone:
 ## Credentials
 Currently, there is no authentication required for the frontend pages. If implementing Firebase authentication, provide test credentials for authenticated pages.
 
+Authentication : https://console.firebase.google.com/u/0/project/adidas-clone-23615/authentication/users
+
+
 ## APIs Used
 No external APIs are used for product data; instead, JSON data is rendered using JavaScript. Firebase is used for authentication.
 
-## API Endpoints
-Not applicable for this frontend-only project. However, if backend functionality is added later, a list of endpoints will be provided here.
-GET /api/items - retrieve all items
-POST /api/items - create a new item
+
 
 
 ## Technology Stack
